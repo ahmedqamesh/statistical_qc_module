@@ -59,7 +59,7 @@ class Plotting(object):
         #ax.errorbar([1,2,3,4], y, xerr=0.0, yerr=y_err, fmt='o', markersize=3, ecolor='black')
         plt.plot(x,y,"-")
         cbar = fig.colorbar(sc, ax=ax, orientation='vertical')
-        cbar.set_label("Voltage limits [V]", labelpad=1, fontsize=10)
+        cbar.set_label("Coefficient of Variation", labelpad=1, fontsize=10)
         #plt.axvline(x=2.6, linewidth=0.8, color="red", linestyle='dashed')
         ax.set_ylabel("Data mean", fontsize=10)
         ax.set_title("Data Stat", fontsize=8)
