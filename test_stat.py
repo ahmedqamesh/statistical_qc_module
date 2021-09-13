@@ -61,7 +61,7 @@ if __name__ == "__main__":
                    "Pooled standard Deviation [1-2]= "+str(pool_std_12), 
                    "Pooled standard Deviation [3-4]= "+str(pool_std_34), 
                    "###### END OF Report ########"]
-    au.save_to_csv(data=output_data, outname="data_sample_stat", directory=output_directory) 
+    au.save_to_txt(data=output_data, outname="data_sample_stat", directory=output_directory) 
       
     #plot output
     x = ["A", "B", "C", "D"]

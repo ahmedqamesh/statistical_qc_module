@@ -4,7 +4,7 @@ import tables as tb
 import os
 import csv
 
-def save_to_csv(data=None, outname=None, directory=None):
+def save_to_txt(data=None, outname=None, directory=None):
     with open(directory+outname+".txt" , 'w') as out_file:
         for line in data:
             out_file.write(line)
