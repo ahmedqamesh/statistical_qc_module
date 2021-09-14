@@ -1,6 +1,5 @@
 from __future__ import division
 import numpy as np
-from kafe import *
 from kafe.function_library import quadratic_3par
 from numpy import loadtxt, arange
 import csv
